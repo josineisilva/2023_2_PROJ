@@ -35,6 +35,9 @@
     <version>2.9.2</version>
   </dependency>
 
+O codigo completo do projeto pode ser obtido em:
+https://github.com/josineisilva/cursos-rest
+
 Quando o webservice estiver em execucao, a documentacao pode ser acessada pelo link
 http://localhost:8080/swagger-ui.html
 
