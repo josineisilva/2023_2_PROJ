@@ -35,8 +35,15 @@
     <version>2.9.2</version>
   </dependency>
 
-O codigo completo do projeto pode ser obtido em:
-https://github.com/josineisilva/cursos-rest
+Para setar as variaveis de ambiente, acrescente no arquivo ~/.bashrc as seguintes linhas:
+export CURSOS_DB_URL=jdbc:postgresql://127.0.0.1:5432/<nome do banco>
+export CURSOS_DB_USERNAME=<nome do usuario>
+export CURSOS_DB_PASSWORD=<senha do usuario>
+
+Exemplo:
+export CURSOS_DB_URL=jdbc:postgresql://127.0.0.1:5432/projeto
+export CURSOS_DB_USERNAME=projeto
+export CURSOS_DB_PASSWORD=projeto
 
 Quando o webservice estiver em execucao, a documentacao pode ser acessada pelo link
 http://localhost:8080/swagger-ui.html
